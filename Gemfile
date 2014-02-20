@@ -14,6 +14,7 @@ end
 group :production do
   gem 'thin'
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 # Gems used only for assets and not required
