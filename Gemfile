@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.1.0'
 
 gem 'rails', '4.0.0'
 gem 'json', '~> 1.7.7'
+gem 'rake', '10.1.0'
 
 group :development do
   gem 'sqlite3'
@@ -32,7 +33,7 @@ end
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
-# Kickstarter's awesome Amazon Flexible Payments gem
+# Amazon Flexible Payments gem
 gem 'amazon_flex_pay'
 
 # Configuration File

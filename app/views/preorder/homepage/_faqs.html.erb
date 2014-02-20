@@ -1,32 +1,31 @@
 <div class="gray_background" id="faqs">
   <div class="wrapper clearfix">
-    <h4>Frequently Asked Questions</h4>
+    <h4>Just the FAQs!</h4>
     <ul>
       <li class=''>
         <details class=''>
-          <summary class=''>How do I setup Amazon Payments?</summary>
-          <p>You'll need to <a href="https://payments.amazon.com/sdui/sdui/accountstatus">create an Amazon Seller Central account</a>. Afterwards, get your access key and secret key from the "Integration" tab on your AWS account. <a href="https://payments.amazon.com/sdui/sdui/helpTab/Checkout-by-Amazon/Advanced-Integration-Help/Using-Your-Access-Key">Click here for more info</a>.
-          <br />
-          <br />
-          Once you have your access key and secret key, head over to <code>config/settings.yml</code>. Change <code>amazon_access_key</code> and <code>amazon_secret_key</code> appropriately.</p>
+          <summary class=''>FAQ 1: skihlz™ is a campaign, not a shoe drive!</summary>
+          <p>Rauhmel Fox may seem to be driven by purely altruistic reasons to organize an international shoe distribution program, however, as a <a href="http://www.usafa.org/">prior-enlisted alumnus</a> of the <a href="http://usafa.edu">United States Air Force Academy</a>, his exemplary conduct is required by <a href="http://www.gpo.gov/fdsys/pkg/USCODE-2006-title10/html/USCODE-2006-title10-subtitleD-partII-chap845-sec8583.htm">Title 10 U.S.C. §8583</a>.
+          <br><br>
+          Shoes are Attributed with the Capacity to Change Lives!</p>
         </details>
       </li>
       <li>
         <details class=''>
-          <summary>Can I use another payments provider?</summary>
-          <p>Of course. We haven't built in support for other providers, but we recommend that you take a look at <a href="https://stripe.com">Stripe</a> or <a href="https://wepay.com">WePay</a>.</p>
+          <summary>FAQ 2: HBO Real Sports with Bryant Gumble interviewed Rauhmel Fox!</summary>
+          <p>In evaluating the importance of the release of <a href="www.hbo.com/real-sports-with-bryant-gumbel/episodes/0/121-april-16-2007/synopsis.html">Stephon Marbury’s $15 sneaker</a>, HBO Segment Producer, <a href="http://www.linkedin.com/pub/andrew-bennett/2/2a4/a7">Andrew Bennett</a> contacted Rauhmel Fox to describe firsthand the importance that sneakers hold in our current culture. The interview with Rauhmel Fox hosted by <a href="http://www.bernardgoldberg.com">Bernard Goldberg</a> at <a href="http://WHOmentors.com/images/intheirshoesPage_39.jpg">International Studies Academy High School</a> in San Francisco, California was replaced with an unsupported opinion from on-air personality, <a href="http://www.foxnews.com/on-air/personalities/juan-williams/bio/#s=r-z">Juan Williams, Fox News</a>.</p>
         </details>
       </li>
       <li>
         <details class=''>
-          <summary>How do I edit the FAQ?</summary>
-          <p>The faq is a partial located in <code>app/views/preorder/homepage/_faq.html.erb</code> The <code>summary</code> tag is the title, the <code>p</code> is the body. Make sure to add an <code>li</code> tag for each FAQ entry.</p>
+          <summary>FAQ 3: The Oprah Winfrey Show contacted Rauhmel Fox!</summary>
+          <p>What would you do with $10,000 of Oprah's money? How would you benefit the community? <a href="http://www.linkedin.com/pub/winnie-dunbar/4/845/576">Winnie Dunbar</a> emailed Rauhmel Fox and asked these very questions. <a href="http://www.oprah.com/entertainment/Viewers-Give-Big">Oprah's Big Give</a> and <a href="http://www.wxow.com/story/8571908/oprahs-big-give-giving-here">ABC affiliates</a> around the country were challenged to give big and give back in 100 communities starting with an initial project grant. Rauhmel Fox inquired around. Apparently no one but him was interested.  As a result, the City and County of San Francisco didn't make the cut.</p>
         </details>
       </li>
       <li>
         <details class=''>
-          <summary>How do I change around the images, product name, etc?</summary>
-          <p>The best way is in <code>config/settings.yml</code>. It has variables for several different parts, the video, the product name, the call to action button ("Fork Now"), and several more.
+          <summary>FAQ 4: Erin Burnett, CNN OutFront, donated $250!</summary>
+          <p>CNN's <a href="http://www.cnn.com/CNN/anchors_reporters/burnett.erin.html">Erin Burnett</a>, anchor of <a href="http://outfront.blogs.cnn.com">OutFront</a>, a nightly news program that reports on the people, places, and events that lead the global conversation, is known for interacting with her fans.  She reported on sneaker obsession and <a href="http://outfront.blogs.cnn.com/2012/06/06/nikes-most-anticipated-shoe-ever/">Nike's Most Anticipated Shoe Ever</a>, Kanye West's Air Yeezy II <a href="http://newsfeed.time.com/2012/06/08/kanye-wests-245-air-yeezy-ii-sneakers-sell-online-for-90000/">pre-order that sold for $90,300</a>.  Rauhmel Fox tweeted her and she responded with a financial contribution! While the support is greatly appreciated, her donation is not an endorsement of WHOmentors.com, Inc. or the skihlz™ brand.  
           </p>
         </details>
       </li>
@@ -34,33 +33,37 @@
     <ul class='col2'>
       <li>
         <details class=''>
-          <summary>How do I change the CSS?</summary>
-          <p>Head over to <code>app/assets/stylesheets/variables.css.scss</code>. It makes it easy to change around the elements used throughout the HTML.
-          <br />
-          <br />
-          Alternatively, you can dive right into the CSS, have a look at <code>app/assets/stylesheets/main.css.scss</code>.</p>
+          <summary>FAQ 5: Never Underestimate The Power Of Shoes!</summary>
+          <p>Shoes have had a lot of influence in our personal lives and the entire world.
+          <br>
+          <br>
+          Shoes affect our perceptions of others and our perceptions of self, including our passage into adulthood. Among the magical transformations we attribute to shoes is their ability to supercharge our athletic performance. Not only is footwear an extension of self, it also acts as a repository of memory and meaning in our lives. -- Russell W. Belk, University of Utah, <i>Shoes and Self</i>.</p>
         </details>
       </li>
       <li class=''>
         <details class=''>
-          <summary>Why did you release this?</summary>
-          <p>Hardware startups are less welcome on Kickstarter than they were 6 months ago. We needed to roll our own kickstarter, so we did. Other hardware startups probably will too, so we made it easier for them by open sourcing our way of doing it.</p>
+          <summary>FAQ 6: Broad Charitable Class</summary>
+          <p>WHOmentors.com, Inc. can serve a broad charitable class with free skihlz™ branded athletic footwear such as disaster relief victims. </p>
         </details>
       </li>
       <li class=''>
         <details class=''>
-          <summary class=''>What software stack does this use?</summary>
-          <p>It's a Ruby on Rails app that makes heavy use of SCSS, Kickstarter's wonderful <code>amazon_flex_pay</code> gem, and a hint of CoffeeScript.</p>
+          <summary class=''>FAQ 7: A Child’s Freedom of Expression Must Be Preserved!</summary>
+          <p>In the absence of a specific showing of constitutionally valid reasons to regulate their speech, students are entitled to freedom of expression of their views. Wearing [shoes] for the purpose of expressing certain views is the type of symbolic act that is within the Free Speech Clause of the First Amendment. <i>United States Supreme Court ruling Tinker v. Des Moines Independent Community School District, 1969.</i></p>
         </details>
       </li>
       <li class=''>
         <details class=''>
-          <summary class=''>How do I deploy it?</summary>
-          <p>We recommend using Heroku. We include a Procfile for you, so all you need to do is:
-          <p>
-            <p>Install the <a href="https://toolbelt.heroku.com/">Heroku Toolbelt</a></p>
-            <p>Run <code>heroku create</code> in Selfstarter's folder</code></p>
-            <p>Run <code>git push heroku master</code> in Selfstarter's folder</p>
+          <summary class=''>FAQ 8: Booking Information and Appearance Guidelines</summary>
+          <p>Rauhmel Fox is available to make appearances at any event that aligns with Corporate Motivation.  Fees for a presentation or honorariums for just a meet and greet are payable to WHOmentors.com, Inc., EIN: 76-0745699.
+          <br>
+          <br>
+          Rauhmel Fox, CEO<br>
+          <a href="http://WHOmentors.com">WHOmentors.com</a>, Inc.<br>
+          110 Pacific Avenue, Suite 250<br>
+          San Francisco, California 94111-1900<br>
+          Phone/SMS text (On-Call 24/7): 415-373-6767<br>
+          Email: Rauhmel@WHOmentors.com</p>
           </p>
         </details>
       </li>

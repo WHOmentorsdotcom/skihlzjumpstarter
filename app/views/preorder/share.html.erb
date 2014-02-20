@@ -1,9 +1,9 @@
 <div class="gray_background" id='share_container'>
   <div class="wrapper center" id="congrats">
     <h2>
-      Hooray! You've just reserved <%= Settings.product_description %>!
+      Thank you! You've just contributed to a great shoe distribution program! <%= Settings.product_description %>!
     </h2>
-    <p>Congratulations, you're <%= Settings.primary_stat_verb %> number <span id="backer_number"><%= number_with_delimiter Order.backers, :delimiter => "," %></span>,  in supporting <%= Settings.product_name %>. Share the great news!</p>
+    <p>Congratulations, you're <%= Settings.primary_stat_verb %> number <span id="backer_number"><%= number_with_delimiter Order.backers, :delimiter => "," %></span>,  in supporting Rauhmel Fox, CEO, WHOmentors.com, Inc. to give away free <%= Settings.product_name %> shoes to teen athletes. Share the great news!</p>
     <br />
     <br />
     <div id="share" class="clearfix">
@@ -17,7 +17,7 @@
         <%= like_button(450, true) %>
       </div>
     </div>
-     <div id="order_id">Reservation ID: <%= @order.uuid %>. You can bookmark or print this page for your records.</div>
+     <div id="order_id">Reservation ID: <%= @order.uuid %>. Please bookmark or print this page for your records.  Contributions of $250 or more will receive contemporaneous acknowledgement from WHOmentors.com, Inc.</div>
   </div>
 </div>
 

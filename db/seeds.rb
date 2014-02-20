@@ -1,16 +1,28 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+
 PaymentOption.create(
     [
         {
-            amount: 10.00,
-            amount_display: '$10',
-            description: '<strong>Basic level: </strong>You receive a great big thankyou from us!  You Rock',
+            amount: 25.00,
+            amount_display: '$25',
+            description: 'One (1) pair of skihlz™ footwear for a teen athlete.',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 50.00,
+            amount_display: '$50',
+            description: 'Two (2) pairs of skihlz™ footwear for teen athletes.',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 75.00,
+            amount_display: '$75',
+            description: 'Three (3) pairs of skihlz™ footwear for teen athletes.',
             shipping_desc: '',
             delivery_desc: '',
             limit: -1
@@ -18,57 +30,81 @@ PaymentOption.create(
         {
             amount: 100.00,
             amount_display: '$100',
-            description: '<strong>Package 1: </strong>You receive our print edition',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
-            limit: 250
+            description: 'Four (4) pairs of skihlz™ footwear for teen athletes.',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
         },
         {
             amount: 125.00,
             amount_display: '$125',
-            description: '<strong>Package 2: </strong>You will receive both our print and digital edition',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
+            description: 'Five (5) pairs of skihlz™ footwear for teen athletes.',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 150.00,
+            amount_display: '$150',
+            description: 'Six (6) pairs of skihlz™ footwear for teen athletes.',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 175.00,
+            amount_display: '$175',
+            description: 'Seven (7) pairs of skihlz™ footwear for teen athletes.',
+            shipping_desc: '',
+            delivery_desc: '',
             limit: -1
         },
         {
             amount: 200.00,
             amount_display: '$200',
-            description: '<strong>Package 3: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
+            description: 'Eight (8) pairs of skihlz™ footwear for teen athletes.',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 225.00,
+            amount_display: '$225',
+            description: 'Nine (9) pairs of skihlz™ footwear for teen athletes.',
+            shipping_desc: '',
+            delivery_desc: '',
             limit: -1
         },
         {
             amount: 250.00,
             amount_display: '$250',
-            description: '<strong>Package 4: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
-            limit: -1
-        },
-        {
-            amount: 300.00,
-            amount_display: '$300',
-            description: '<strong>Package 5: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
+            description: 'Ten (10) pairs of skihlz™ footwear for teen athletes.',
+            shipping_desc: '',
+            delivery_desc: '',
             limit: -1
         },
         {
             amount: 500.00,
             amount_display: '$500',
-            description: '<strong>Package 6: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
+            description: 'Twenty (20) pairs of skihlz™ footwear for teen athletes.',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 750.00,
+            amount_display: '$750',
+            description: 'Thirty (30) pairs of skihlz™ footwear for teen athletes.',
+            shipping_desc: '',
+            delivery_desc: '',
             limit: -1
         },
         {
             amount: 1000.00,
             amount_display: '$1000',
-            description: '<strong>Package 7: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
+            description: '<strong>General Operating Fund: </strong>Unrestricted contribution to support the skihlz™ footwear distribution program.',
+            shipping_desc: '',
+            delivery_desc: '',
             limit: -1
         }
     ])

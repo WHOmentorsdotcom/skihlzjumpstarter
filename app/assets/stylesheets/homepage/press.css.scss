@@ -7,7 +7,7 @@
   li
   {
     float: left;
-    margin: 0 16px;
+    margin: 0 8px;
     a {
       display: block;
       height: 48px;
@@ -18,24 +18,29 @@
       opacity: 1;
     }
   }
-  #awesomeblog a
+  #prweb a
   {
-    background: url(image-path("")) no-repeat left center;
+    background: url(image-path("thumb_prweb.png")) no-repeat left center;
     width: 176px;
   }
-  #coolpaper a
+  #youtube a
   {
-    background: url(image-path("")) no-repeat left center;
-    width: 109px;
+    background: url(image-path("thumb_youtube.png")) no-repeat left center;
+    width: 120px;
   }
-  #nicemag a
+  #twitter a
   {
-    background: url(image-path("")) no-repeat left center;
-    width: 149px;
+    background: url(image-path("thumb_twitter.png")) no-repeat left center;
+    width: 160px;
   }
-  #readcrunch a
+  #fb a
   {
-    background: url(image-path("")) no-repeat left center;
-    width: 81px;
+    background: url(image-path("thumb_fb.png")) no-repeat left center;
+    width: 160px;
+  }
+  #fiscalsponsor a
+  {
+    background: url(image-path("thumb_fiscalsponsor.png")) no-repeat left center;
+    width: 160px;
   }
 }
