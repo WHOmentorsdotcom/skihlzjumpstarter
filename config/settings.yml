@@ -1,5 +1,5 @@
-# Hi there!
-# These are the settings for Selfstarter.
+# Hi, from Rauhmel Fox, CEO, WHOmentors.com, Inc.
+# These are the settings for JumpStarter Code™ a derivative of the Ruby on Rails open source SelfStarter crowdfunding boilerplate.
 # This is more tidy than changing the HTML if all you want to do is rename things and swap out images
 
 # You should totally change the HTML and CSS though
@@ -26,7 +26,7 @@ value_proposition: "Rauhmel Fox, CEO, WHOmentors.com, Inc."
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
 # Replace /embed/ in your video url path with /v/ for video playback to work.
-video_embed_url: "https://www.youtube.com/embed/x6lh6rU_yRA"
+video_embed_url: "https://www.youtube.com/v/x6lh6rU_yRA"
 
 # If set to true, then the image at "/assets/video_placeholder.png" will be shown in place of the youtube
 # video.  When the user clicks it, the vid will replace the image and start playing.
@@ -34,7 +34,7 @@ video_embed_url: "https://www.youtube.com/embed/x6lh6rU_yRA"
 # NOTE: you can set this to false, and no image will be use - first frame of the video will be displayed
 #
 # NOTE: this only works for youtube video at the moment.  If its not for youtube, then just leave this property blank
-use_video_placeholder: true
+use_video_placeholder: false
 
 # Amazon settings -- you'll need an Amazon Payments account, sign up here --> http://bit.ly/SGksTv
 
@@ -57,7 +57,6 @@ charge_limit: 35.00
 
 # Stats settings
 
-# On Lockitron, it's "backers"
 primary_stat: "backers"
 # This'll show up in the tweet as, "I'm backer number ..."
 primary_stat_verb: 'backer'
@@ -73,12 +72,10 @@ progress_text: "Implemented"
 
 # Call to action section
 
-# On Lockitron, it's "First Batch Ships in March 2013"
 ships: "1 pair of free shoes for a teen"
 
-# On Lockitron, it's "Reserve Now"
 call_to_action: "Donate Today!"
-# On Lockitron, this is "Only $149 for a limited time"
+
 price_human: "$25 contribution per pair."
 
 # The paragraph below the price. You'd probably say something about how you're not going to charge them before it ships (so it's less risky).
@@ -91,9 +88,9 @@ facebook_app_id: "1405453156376400"
 tweet_text: "I donated $25 or more to give @skihlz @skihlzshoes to a teen athlete!"
 
 # Google Analytics
-google_id: "1234567890"
+google_id: "UA-48283012-1"
 
-# If you want to change the images for the key points (e.g. "Kickstarter is not a store")
+# If you want to change the images for the key points 
 # They're in app/assets/images/#{pointer_number}-background.png
 # So, the first key point, it's at app/assets/images/1-background.png
 # Alternatively, change it up in app/assets/stylesheets/homepage/key_points.css.scss
