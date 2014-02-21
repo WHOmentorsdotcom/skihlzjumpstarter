@@ -26,14 +26,14 @@ value_proposition: "Rauhmel Fox, CEO, WHOmentors.com, Inc."
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
 # Replace /embed/ in your video url path with /v/ for video playback to work.
-video_embed_url: "https://www.youtube.com/v/x6lh6rU_yRA"
+video_embed_url: "https://www.youtube.com/embed/x6lh6rU_yRA"
 
 # If set to true, then the image at "/assets/video_placeholder.png" will be shown in place of the youtube
 # video.  When the user clicks it, the vid will replace the image and start playing.
 #
 # NOTE: you can set this to false, and no image will be use - first frame of the video will be displayed
 #
-# NOTE: this only works for youtube video at the moment.  If its not for youtube, then just leave this property blank
+# NOTE: this only works for youtube video at the moment.  If it's not for youtube, then just leave this property blank
 use_video_placeholder: false
 
 # Amazon settings -- you'll need an Amazon Payments account, sign up here --> http://bit.ly/SGksTv
