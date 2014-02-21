@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # JumpStarter Code™ a derivative of Ruby on Rails open source SelfStarter crowdfunding boilerplate
 JumpStarter Code™, a derivative of the Ruby on Rails open source SelfStarter crowdfunding boilerplate, is a service mark of WHOmentors.com, Inc., a 501(c)(3) fiscal sponsor of nonexempt projects.
 To get started, fork this repository and change around ```config/settings.yml``` to suit your needs.
@@ -102,3 +103,9 @@ Amazon Payments works great for us, but it may not work out for everyone. If you
 There aren't any tests yet. Tests are very welcome!
 
 
+=======
+skihlzjumpstarter
+=================
+
+JumpStarter Code™ is a derivative of the Ruby on Rails open source SelfStarter crowdfunding boilerplate.
+>>>>>>> f7c67897209472e63dc4c019cd9a1eee7ab4c1ce
